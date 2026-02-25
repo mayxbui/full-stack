@@ -1,5 +1,5 @@
 // ------------------EXERCISES 1.6-1.12------------------
-
+import { useState } from "react"
 const Button=({onClick, text})=><button onClick={onClick}>{text}</button>
 
 const StatisticLine=({text,value})=>{
